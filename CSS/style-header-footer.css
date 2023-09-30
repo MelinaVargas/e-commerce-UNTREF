@@ -1,0 +1,57 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  height: 3rem;
+  background-color: black;
+  justify-content: center;
+  align-items: end;
+}
+
+.menu_iconos {
+  margin-right: 0.67rem;
+  padding: 10px;
+  height: 2.2rem;
+  cursor: pointer;
+  &hover {
+    background-color: pink;
+  }
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: white; /* Color de las barras */
+  margin-bottom: 0.34rem;
+  transition: 0.4s;
+}
+
+.menu_desplegado {
+  display: block;
+  border-top: 1px solid white;
+  background-color: lightblue;
+  padding: 1rem;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+.menu li {
+  margin: 0.25rem 0;
+  &:hover {
+    background-color: lightblue;
+    transition: 0.3s;
+  }
+}
+
+.menu a {
+  text-align: center;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: white;
+}
+
+/* Estilo de color para el pie de página */
+footer {
+  background-color: rgb(197, 195, 195);
+}
