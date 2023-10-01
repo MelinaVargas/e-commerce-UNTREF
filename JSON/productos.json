@@ -1,0 +1,42 @@
+[
+    {
+        
+        "descripcion": "Descripción del producto 1",
+        
+        "detalle": "Aquí puedes mostrar una descripción más detallada del producto 1. Si son servicios, puedes detallar también qué consideraciones debe tener el usuario al contratar o adquirir el mismo...",
+        "precio": 9600.00,
+        "puntuacion": "***"
+    },
+    {
+        
+        "descripcion": "Descripción del producto 2",
+        
+        "detalle": "Aquí puedes mostrar una descripción más detallada del producto 2. Si son servicios, puedes detallar también qué consideraciones debe tener el usuario al contratar o adquirir el mismo...",
+        "precio": 3455.00,
+        "puntuacion": "****"
+    },
+    {
+        
+        "descripcion": "Descripción del producto 3",
+        
+        "detalle": "Aquí puedes mostrar una descripción más detallada del producto 3. Si son servicios, puedes detallar también qué consideraciones debe tener el usuario al contratar o adquirir el mismo...",
+        "precio": 9599.00,
+        "puntuacion": "*****"
+    },
+    {
+        
+        "descripcion": "Descripción del producto 4",
+        
+        "detalle": "Aquí puedes mostrar una descripción más detallada del producto 4. Si son servicios, puedes detallar también qué consideraciones debe tener el usuario al contratar o adquirir el mismo...",
+        "precio": 654.00,
+        "puntuacion": "*"
+    },
+    {
+        
+        "descripcion": "Descripción del producto 5",
+        
+        "detalle": "Aquí puedes mostrar una descripción más detallada del producto 5. Si son servicios, puedes detallar también qué consideraciones debe tener el usuario al contratar o adquirir el mismo...",
+        "precio": 2599.99,
+        "puntuacion": "**"
+    }
+]

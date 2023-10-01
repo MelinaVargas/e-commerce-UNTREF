@@ -1,0 +1,117 @@
+:root {
+  /*Font-sizes */
+  --font-display: 4.6em;
+  --font-jumbo: 3.8em;
+  --font-xlarge: 3em;
+  --font-larger: 2.4em;
+  --font-medium: 1.8em;
+  --font-small: 1.6em;
+  --font-xsmall: 1.4em;
+
+  /* Sspacings */
+  --spacing-128: 12.8rem;
+  --spacing-65: 6.8rem;
+  --spacing-36: 3.6rem;
+  --spacing-28: 2.8rem;
+  --spacing-24: 2.4rem;
+  --spacing-20: 2rem;
+  --spacing-16: 1.6rem;
+  --spacing-12: 1.2rem;
+  --spacing-8: 0.8rem;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+header {
+  background-color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--spacing-36);
+}
+
+.navbar__logo {
+  max-width: 300px;
+}
+
+.navbar__menu {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-20);
+}
+
+.navbar__link {
+  font-size: var(--font-medium) !important;
+  padding: var(--spacing-8) var(--spacing-16) !important;
+  display: inline-block !important;
+  transition: background 0.3s ease-in-out !important;
+  color: white !important;
+  text-decoration: none; /* Esta línea elimina la línea subrayada */
+  position: relative;
+}
+
+.navbar__menu {
+  list-style: none;
+  padding: 0; /* Elimina el relleno que agrega el navegador */
+  margin: 0; /* Elimina el margen que agrega el navegador */
+}
+
+.navbar__link:hover {
+  background-color: rgb(54, 80, 110) !important;
+}
+
+.with-icon {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-8);
+}
+
+.with-submenu:hover .submenu {
+  display: block;
+}
+
+.submenu {
+  display: none;
+  width: 300px;
+  position: absolute;
+  background-color: black;
+}
+
+.submenu__link {
+  display: block;
+  padding: var(--spacing-8) var(--spacing-16);
+  font-size: var(--font-xsmall);
+  transition: background 5s ease-in-out;
+}
+
+.submenu__link:hover {
+  background-color: rgb(54, 80, 110);
+}
+
+.submenu__item a {
+  color: white;
+  text-decoration: none;
+}
+
+.submenu__item {
+  display: block;
+  padding: var(--spacing-8) var(--spacing-16);
+  /* font-size: var(--font-medium); */
+  list-style: none;
+}

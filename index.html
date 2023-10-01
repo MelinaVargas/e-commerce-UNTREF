@@ -1,139 +1,162 @@
 <!DOCTYPE html>
 <lang="es">
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Melina Vargas" />
     <meta name="description" content="Tienda online de ropa">
     <title>Home | Dos Chingadas</title>
 
- <!-- Enlaces a archivos CSS -->
-    <link rel="stylesheet" href="CSS/style-header-footer.css">
+    <!-- Enlaces de las fuentes de Google Fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+    </style>
+
+    <!-- Scripts de Bootstrap -->
+    <link href=https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css rel="stylesheet" />
+    <link rel="stylesheet" href="CSS/font-awesome.min.css">
+
+    <!-- Enlaces a archivos CSS -->
+    <link rel="stylesheet" href="CSS/index.css">
 
     <!-- Favicon -->
     <link rel="icon" href="./img/icons/ícono.png.png">
-</head>
+  </head>
 
-<body>
+  <body>
 
     <div class="contenedor_principal">
 
-    <header> <!-- Inicio Header -->
+      <header> <!-- Inicio Header -->
 
-        <div class="navbar">
+        <!-- <div class="navbar">
             <div class="menu_iconos">
               <div class="bar"></div>
               <div class="bar"></div>
               <div class="bar"></div>
             </div>
-          </div>
+          </div> -->
 
-            <!--Menu desplegable-->
+        <!--Menú-->
 
-        <div class="menu">
-            <ul>
-                <picture>
-                    <a href="index.html">
-                     <img src="./img/branding/logo-menú.webp" alt="Isologotipo de la Marca Dos Chingadas"> <!--Logo -->
-                 </a>  
-                 </picture>
-                 <ul>
-                    <li>
-                        <a href="./pages/shop.html">SHOP</a> <!-- Shop -->
-                    </li>
-                    <li>
-                        <a href="./pages/contact.html">CONTACTO</a> <!-- Contacto -->
-                    </li>
-                    <li>
-                        <a href="./pages/login.html">LOGIN</a> <!-- Login -->
-                    </li>
-                    <li>
-                        <a href="./pages/cart.html">
-                            <img src="./img/icons/cart-icon.svg" alt="ícono de carrito">
-                        </a> <!-- Carrito -->
-                    </li>
-                </ul>
-            </ul>
-          </div>
+        <nav class="navbar container">
+          <picture class="navbar__logo">
+            <a href="index.html">
+              <img src="./img/branding/logo-menú.webp" alt="Isologotipo de la Marca Dos Chingadas"> <!--Logo -->
+            </a>
+          </picture>
+          <ul class="navbar__menu">
+            <li class="navbar__item with-submenu">
+              <a class="navbar__link with-icon" href="./pages/shop.html">SHOP<iconify-icon icon="mdi:chevron-down"></iconify-icon></a> <!-- Shop -->
+              <ul class="submenu">
+                <li class="submenu__item">
+                  <a href="" class="submenu__link">Denim</a>
+                </li>
+                <li class="submenu__item">
+                  <a href="" class="submenu__link">Buzos</a>
+                </li>
+                <li class="submenu__item">
+                  <a href="" class="submenu__link">Tops</a>
+                </li>
+                <li class="submenu__item">
+                  <a href="" class="submenu__link">Shorts</a>
+                </li>
+                <li class="submenu__item">
+                  <a href="" class="submenu__link">Minis</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a class="navbar__link" href="./pages/contact.html">CONTACTO</a> <!-- Contacto -->
+            </li>
+            <li>
+              <a class="navbar__link" href="./pages/login.html">LOGIN</a> <!-- Login -->
+            </li>
+            <li>
+              <a class="navbar__cart" href="./pages/cart.html">
+                <img src="./img/icons/cart-icon.svg" alt="ícono de carrito">
+              </a> <!-- Carrito -->
+            </li>
+          </ul>
+        </nav>
 
-    </header> <!-- Fin Header -->
+      </header> <!-- Fin Header -->
 
-    <main> <!-- Inicio Main -->
+      <main> <!-- Inicio Main -->
         <section> <!-- Banner -->
-            <picture>
-                <img src="./img/banners/baner-1.webp" alt="Banner nuevos ingresos Dos Chingadas">
-            </picture>
+          <picture>
+            <img src="./img/banners/baner-1.webp" alt="Banner nuevos ingresos Dos Chingadas">
+          </picture>
         </section>
 
         <section class="productos">
-            <h2>PRODUCTOS</h2>
-            <div class="lista_producto">Denim<span class="mas">+</span></div>
-            <div class="cards palos_contenedor"></div>
-            <div class="lista_producto">Buzosr<span class="mas">+</span></div>
-            <div class="cards indsuperior_contenedor"></div>
-            <div class="lista_producto">Tops<span class="mas">+</span></div>
-            <div class="cards indinferior_contenedor"></div>
-            <div class="lista_producto">Shorts<span class="mas">+</span></div>
-            <div class="cards accesorios_contenedor"></div>
-            <div class="lista_producto">Minis<span class="mas">+</span></div>
-            <div class="cards calzado_contenedor"></div>
-    
+          <h2>PRODUCTOS</h2>
+          <!-- <div class="lista_producto">Denim<span class="mas">+</span></div>
+          <div class="cards denim_contenedor"></div>
+          <div class="lista_producto">Buzosr<span class="mas">+</span></div>
+          <div class="cards buzos_contenedor"></div>
+          <div class="lista_producto">Tops<span class="mas">+</span></div>
+          <div class="cards tops_contenedor"></div>
+          <div class="lista_producto">Shorts<span class="mas">+</span></div>
+          <div class="cards shorts_contenedor"></div>
+          <div class="lista_producto">Minis<span class="mas">+</span></div>
+          <div class="cards minis_contenedor"></div> -->
+          <table class="table">
+            <tbody id="listaProductos"></tbody>
+          </table>
+
         </section>
 
-    </main> <!-- Fin Main -->
-    
-    <footer> <!-- Inicio Footer -->
+      </main> <!-- Fin Main -->
+
+      <footer> <!-- Inicio Footer -->
 
         <div class="container pt-3">
-            <div class="row">
-              <div class="col-md-4">
-                <h2>Redes sociales</h2>
-                <a href="https://www.facebook.com/doschingadas/" target="_blank">
-                  <img
-                    src="./img/icons/facebook-logo.png"
-                    alt="Facebook"
-                    style="height: 50px"
-                  />
-                </a>
-                <a href="https://www.instagram.com/Doschingadas/" target="_blank">
-                  <img
-                    src="./img/icons/instagram-logo.png"
-                    alt="Instagram"
-                    style="height: 50px"
-                  />
-                </a>
-              </div>
-              
-              <div class="col-md-4">
-                <h2>Contacto</h2>
-                <p>
-                  Teléfono: 1131318613<br />
-                  Email: doschingadasstore@gmail.com<br />
-                  WhatsApp: 541131318613
-                  Dirección: Avenida del Libertador 447 Merlo, Buenos aires | Helguera 614, CABA
-                </p>
-              </div>
+          <div class="row">
+            <div class="col-md-4">
+              <h2>Redes sociales</h2>
+              <a href="https://www.facebook.com/doschingadas/" target="_blank">
+                <img src="./img/icons/facebook-logo.png" alt="Facebook" style="height: 50px" />
+              </a>
+              <a href="https://www.instagram.com/Doschingadas/" target="_blank">
+                <img src="./img/icons/instagram-logo.png" alt="Instagram" style="height: 50px" />
+              </a>
+            </div>
+
+            <div class="col-md-4">
+              <h2>Contacto</h2>
+              <p>
+                Teléfono: 1131318613<br />
+                Email: doschingadasstore@gmail.com<br />
+                WhatsApp: 541131318613
+                Dirección: Avenida del Libertador 447 Merlo, Buenos aires | Helguera 614, CABA
+              </p>
             </div>
           </div>
+        </div>
 
         <section>
-            <nav>
-                <ul>
-                    <li><a href="./pages/shop.html">SHOP</a>
-                    </li>
-                    <li><a href="./pages/register.html">REGISTRARSE</a>
-                    </li>
-                    <li><a href="./pages/login.html">LOGIN</a>
-                    </li>
-                    <li><a href="./pages/contact.html">CONTACTO</a>
-                    </li>
-                </ul>
-                <picture>
-                    <img src="./img/branding/logo-menú.webp" alt="Isotipo de la Marca Dos Chingadas">
-                </picture>
-            </nav>
+          <nav>
+            <ul>
+              <li><a href="./pages/shop.html">SHOP</a>
+              </li>
+              <li><a href="./pages/register.html">REGISTRARSE</a>
+              </li>
+              <li><a href="./pages/login.html">LOGIN</a>
+              </li>
+              <li><a href="./pages/contact.html">CONTACTO</a>
+              </li>
+            </ul>
+            <picture>
+              <img src="./img/branding/logo-menú.webp" alt="Isotipo de la Marca Dos Chingadas">
+            </picture>
+          </nav>
         </section>
-        <p> Copyright Dos Chingadas  &copy- 2023. Todos los derechos reservados.</p>
-    </footer> <!-- Fin Footer -->
-</body>
-</html>
+        <p> Copyright Dos Chingadas &copy- 2023. Todos los derechos reservados.</p>
+      </footer> <!-- Fin Footer -->
+      <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+      <script src="./JS/productos.js"/>
+  </body>
+
+  </html>
