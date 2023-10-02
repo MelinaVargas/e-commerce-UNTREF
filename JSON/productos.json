@@ -1,42 +1,37 @@
 [
-    {
-        
-        "descripcion": "Descripción del producto 1",
-        
-        "detalle": "Aquí puedes mostrar una descripción más detallada del producto 1. Si son servicios, puedes detallar también qué consideraciones debe tener el usuario al contratar o adquirir el mismo...",
-        "precio": 9600.00,
-        "puntuacion": "***"
-    },
-    {
-        
-        "descripcion": "Descripción del producto 2",
-        
-        "detalle": "Aquí puedes mostrar una descripción más detallada del producto 2. Si son servicios, puedes detallar también qué consideraciones debe tener el usuario al contratar o adquirir el mismo...",
-        "precio": 3455.00,
-        "puntuacion": "****"
-    },
-    {
-        
-        "descripcion": "Descripción del producto 3",
-        
-        "detalle": "Aquí puedes mostrar una descripción más detallada del producto 3. Si son servicios, puedes detallar también qué consideraciones debe tener el usuario al contratar o adquirir el mismo...",
-        "precio": 9599.00,
-        "puntuacion": "*****"
-    },
-    {
-        
-        "descripcion": "Descripción del producto 4",
-        
-        "detalle": "Aquí puedes mostrar una descripción más detallada del producto 4. Si son servicios, puedes detallar también qué consideraciones debe tener el usuario al contratar o adquirir el mismo...",
-        "precio": 654.00,
-        "puntuacion": "*"
-    },
-    {
-        
-        "descripcion": "Descripción del producto 5",
-        
-        "detalle": "Aquí puedes mostrar una descripción más detallada del producto 5. Si son servicios, puedes detallar también qué consideraciones debe tener el usuario al contratar o adquirir el mismo...",
-        "precio": 2599.99,
-        "puntuacion": "**"
-    }
+  {
+    "descripcion": "Denim",
+
+    "detalle": "Denim Elena. Jean rigido, bien de talle, no cede. Color negro.",
+    "precio": 18400.0,
+    "puntuacion": "***"
+  },
+  {
+    "descripcion": "Buzos",
+
+    "detalle": "Hoodie Flame. Buzo de frisa talle único color negro ",
+    "precio": 13600.0,
+    "puntuacion": "****"
+  },
+  {
+    "descripcion": "Tops",
+
+    "detalle": "Manga Larga Red. Top manga larga de red talle unico.",
+    "precio": 6200.0,
+    "puntuacion": "*****"
+  },
+  {
+    "descripcion": "Shorts",
+
+    "detalle": "Short dobladillo negro. Short confeccionado en tela rígida, color negro",
+    "precio": 12600.0,
+    "puntuacion": "*"
+  },
+  {
+    "descripcion": "Minis",
+
+    "detalle": "Mini tablas Dome Fucsia. Tela elastizada, se sugiere pedir un talle más ya que son de confección chica.",
+    "precio": 12600.0,
+    "puntuacion": "**"
+  }
 ]

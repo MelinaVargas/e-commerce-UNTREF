@@ -15,13 +15,12 @@
 
     <!-- Scripts de Bootstrap -->
     <link href=https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css rel="stylesheet" />
-    <link rel="stylesheet" href="CSS/font-awesome.min.css">
 
     <!-- Enlaces a archivos CSS -->
     <link rel="stylesheet" href="CSS/index.css">
 
     <!-- Favicon -->
-    <link rel="icon" href="./img/icons/ícono.png.png">
+    <link rel="shortcut icon" href="/favicon.ico" />
   </head>
 
   <body>
@@ -29,14 +28,6 @@
     <div class="contenedor_principal">
 
       <header> <!-- Inicio Header -->
-
-        <!-- <div class="navbar">
-            <div class="menu_iconos">
-              <div class="bar"></div>
-              <div class="bar"></div>
-              <div class="bar"></div>
-            </div>
-          </div> -->
 
         <!--Menú-->
 
@@ -47,34 +38,34 @@
             </a>
           </picture>
           <ul class="navbar__menu">
-            <li class="navbar__item with-submenu">
-              <a class="navbar__link with-icon" href="./pages/shop.html">SHOP<iconify-icon icon="mdi:chevron-down"></iconify-icon></a> <!-- Shop -->
+            <li class="navbar__item with-submenu mr-md-1">
+              <a class="navbar__link with-icon" href="#productos">PRODUCTOS<iconify-icon icon="mdi:chevron-down"></iconify-icon></a> <!-- Shop -->
               <ul class="submenu">
-                <li class="submenu__item">
-                  <a href="" class="submenu__link">Denim</a>
+                <li class="submenu__item mr-md-1">
+                  <a href="products.html?codigo=Denim" class="submenu__link">Denim</a>
                 </li>
-                <li class="submenu__item">
-                  <a href="" class="submenu__link">Buzos</a>
+                <li class="submenu__item mr-md-1">
+                  <a href="products.html?codigo=Buzos" class="submenu__link">Buzos</a>
                 </li>
-                <li class="submenu__item">
-                  <a href="" class="submenu__link">Tops</a>
+                <li class="submenu__item mr-md-1">
+                  <a href="products.html?codigo=Tops" class="submenu__link">Tops</a>
                 </li>
-                <li class="submenu__item">
-                  <a href="" class="submenu__link">Shorts</a>
+                <li class="submenu__item mr-md-1">
+                  <a href="products.html?codigo=Shorts" class="submenu__link">Shorts</a>
                 </li>
-                <li class="submenu__item">
-                  <a href="" class="submenu__link">Minis</a>
+                <li class="submenu__item mr-md-1">
+                  <a href="products.html?codigo=Minis" class="submenu__link">Minis</a>
                 </li>
               </ul>
             </li>
             <li>
-              <a class="navbar__link" href="./pages/contact.html">CONTACTO</a> <!-- Contacto -->
+              <a class="navbar__link mr-md-1" href="">CONTACTO</a> <!-- Contacto -->
             </li>
             <li>
-              <a class="navbar__link" href="./pages/login.html">LOGIN</a> <!-- Login -->
+              <a class="navbar__link mr-md-1" href="">LOGIN</a> <!-- Login -->
             </li>
             <li>
-              <a class="navbar__cart" href="./pages/cart.html">
+              <a class="navbar__cart" href="">
                 <img src="./img/icons/cart-icon.svg" alt="ícono de carrito">
               </a> <!-- Carrito -->
             </li>
@@ -83,80 +74,82 @@
 
       </header> <!-- Fin Header -->
 
-      <main> <!-- Inicio Main -->
+      <main class="main-container"> <!-- Inicio Main -->
         <section> <!-- Banner -->
           <picture>
             <img src="./img/banners/baner-1.webp" alt="Banner nuevos ingresos Dos Chingadas">
           </picture>
         </section>
 
-        <section class="productos">
+        <section id="productos" class="productos">
           <h2>PRODUCTOS</h2>
-          <!-- <div class="lista_producto">Denim<span class="mas">+</span></div>
-          <div class="cards denim_contenedor"></div>
-          <div class="lista_producto">Buzosr<span class="mas">+</span></div>
-          <div class="cards buzos_contenedor"></div>
-          <div class="lista_producto">Tops<span class="mas">+</span></div>
-          <div class="cards tops_contenedor"></div>
-          <div class="lista_producto">Shorts<span class="mas">+</span></div>
-          <div class="cards shorts_contenedor"></div>
-          <div class="lista_producto">Minis<span class="mas">+</span></div>
-          <div class="cards minis_contenedor"></div> -->
-          <table class="table">
-            <tbody id="listaProductos"></tbody>
-          </table>
-
         </section>
+
+        <section class="collection container"> <!-- Denim -->
+          <article class="collection__content">
+              <h3 class="collection__title">DENIM ELENA</h3>
+              <p class="collection__text">Jean rigido, color negro.</p>
+              <a class="collection__link" href="products.html?codigo=Denim">VER MÁS</a>
+          </article>
+      </section>
+
+      <section class="collection container"> <!-- Buzos -->
+          <article class="collection__content">
+              <h3 class="collection__title">HODIE FLAME</h3>
+              <p class="collection__text">Buzo de frisa, talle único, color negro.</p>
+              <a class="collection__link" href="products.html?codigo=Buzos">VER MÁS</a>
+          </article>
+      </section>
+
+      <section class="collection container"> <!-- Tops -->
+          <article class="collection__content">
+              <h3 class="collection__title">MANGA LARGA RED</h3>
+              <p class="collection__text">Top manga larga de red, talle Único.</p>
+              <a class="collection__link" href="products.html?codigo=Tops">VER MÁS</a>
+          </article>
+      </section>
+
+      <section class="collection container"> <!-- Shorts -->
+        <article class="collection__content">
+            <h3 class="collection__title">SHORT DOBLADILLO NEGRO</h3>
+            <p class="collection__text">Short confeccionado en tela rígida, color negro.</p>
+            <a class="collection__link" href="products.html?codigo=Shorts">VER MÁS</a>
+        </article>
+    </section>
+
+    <section class="collection container"> <!-- Minis -->
+        <article class="collection__content">
+            <h3 class="collection__title">MINI TABLAS DOME FUCSIA</h3>
+            <p class="collection__text">Pollera tableada fucsia de tela elastizada..</p>
+            <a class="collection__link" href="products.html?codigo=Minis">VER MÁS</a>
+        </article>
+    </section>
+
 
       </main> <!-- Fin Main -->
 
-      <footer> <!-- Inicio Footer -->
-
-        <div class="container pt-3">
-          <div class="row">
-            <div class="col-md-4">
-              <h2>Redes sociales</h2>
-              <a href="https://www.facebook.com/doschingadas/" target="_blank">
-                <img src="./img/icons/facebook-logo.png" alt="Facebook" style="height: 50px" />
-              </a>
-              <a href="https://www.instagram.com/Doschingadas/" target="_blank">
-                <img src="./img/icons/instagram-logo.png" alt="Instagram" style="height: 50px" />
-              </a>
-            </div>
-
-            <div class="col-md-4">
-              <h2>Contacto</h2>
-              <p>
-                Teléfono: 1131318613<br />
-                Email: doschingadasstore@gmail.com<br />
-                WhatsApp: 541131318613
-                Dirección: Avenida del Libertador 447 Merlo, Buenos aires | Helguera 614, CABA
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <section>
-          <nav>
-            <ul>
-              <li><a href="./pages/shop.html">SHOP</a>
+      <footer class="footer"> <!-- Inicio Footer -->
+          <nav class="navbar container">
+            <ul class="navbar__item mr-md-1">
+              <li class="navbar__item">
+                <a class="navbar__link" href="#productos">PRODUCTOS</a>
               </li>
-              <li><a href="./pages/register.html">REGISTRARSE</a>
+              <li class="navbar__item">
+                <a class="navbar__link" href="">REGISTRARSE</a>
               </li>
-              <li><a href="./pages/login.html">LOGIN</a>
-              </li>
-              <li><a href="./pages/contact.html">CONTACTO</a>
+              <li class="navbar__item">
+                <a class="navbar__link" href="">LOGIN</a>
               </li>
             </ul>
             <picture>
               <img src="./img/branding/logo-menú.webp" alt="Isotipo de la Marca Dos Chingadas">
             </picture>
           </nav>
-        </section>
-        <p> Copyright Dos Chingadas &copy- 2023. Todos los derechos reservados.</p>
-      </footer> <!-- Fin Footer -->
-      <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
-      <script src="./JS/productos.js"/>
-  </body>
 
+        <p class="footer__copy"> Copyright Dos Chingadas &copy- 2023. Todos los derechos reservados.</p>
+      </footer> <!-- Fin Footer -->
+      <!-- Scripts -->
+      <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+      <script src="JS/script_productos.js"></script>
+  </body>
   </html>

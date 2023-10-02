@@ -1,0 +1,47 @@
+[
+  {
+    "codigo": "Denim",
+
+    "descripcion": "Denim Elena",
+    "imagen": "img/products/Denim.webp",
+    "detalles": "Descubre la combinación ideal de estilo y comodidad con Denim Elena. Estos jeans rígidos ofrecen un ajuste óptimo en la cintura y caderas, manteniendo su forma sin ceder. En un elegante color negro, estos jeans son versátiles y duraderos. Disponible en una amplia gama de tallas, desde 34 hasta 46, para adaptarse a diversas figuras. Haz que Denim Elena sea tu elección diaria para un look impecable y con estilo.",
+    "precio": 18400.0,
+    "puntuacion": "***"
+  },
+  {
+    "codigo": "Buzos",
+
+    "descripcion": "Hoodie Flame",
+    "imagen": "img/products/Buzos.webp",
+    "detalles": "Experimenta un estilo audaz y cómodo con el Hoodie Flame, un buzo de frisa único en su diseño. Su color negro clásico sirve de fondo para un estampado llamativo de esqueleto y fuego rosado, añadiendo un toque de originalidad. Con medidas precisas y un talle único, este buzo se adapta perfectamente a diversas estaturas y figuras. Su longitud trasera y frontal, ancho, mangas y busto están cuidadosamente diseñados para brindar comodidad y estilo a la medida. Sumérgete en la moda con Hoodie Flame y haz una declaración de estilo que capture miradas.",
+    "precio": 13600.0,
+    "puntuacion": "****"
+  },
+  {
+    "codigo": "Tops",
+
+    "descripcion": "Manga Larga Red",
+    "imagen": "img/products/Tops.webp",
+    "detalles": "Descubre la elegancia audaz de Manga Larga Red, un top de manga larga confeccionado en una red intrincada que fusiona sensualidad y modernidad. Su diseño único permite una sutil exhibición artística de la piel, añadiendo un toque de provocación y estilo. Disponible en talle único, este top se adapta a diferentes figuras gracias a su tejido elástico y cómodo, brindando libertad de movimiento y versatilidad para combinarlo con diversas prendas. Eleva tu estilo y haz una declaración de moda con Manga Larga Red, destacando tu individualidad y sofisticación en cada ocasión.",
+    "precio": 6200.0,
+    "puntuacion": "*****"
+  },
+  {
+    "codigo": "Shorts",
+
+    "descripcion": "Short dobladillo negro",
+    "imagen": "img/products/Shorts.webp",
+    "detalles": "Descubre la esencia del estilo con nuestro Short Dobladillo Negro, confeccionado en una tela rígida que garantiza durabilidad y forma impecable. Este short de color negro, elegante y versátil, es una prenda esencial en tu guardarropa, disponible en una amplia gama de tallas, desde la 34 hasta la 46. Su diseño atemporal y sofisticado te permite combinarlo fácilmente con una variedad de atuendos, brindando comodidad y estilo en cada uso. Experimenta la moda en su máxima expresión con este short que se adapta a diferentes ocasiones y se convierte en un elemento clave de tu estilo diario.",
+    "precio": 12600.0,
+    "puntuacion": "*"
+  },
+  {
+    "codigo": "Minis",
+
+    "descripcion": "Mini tablas Dome Fucsia",
+    "imagen": "img/products/Minis.webp",
+    "detalles": "Sumérgete en la moda vibrante con nuestra Mini Tablas Dome Fucsia, una pollera confeccionada en tela elastizada que brinda comodidad y flexibilidad. Este encantador diseño en un brillante color fucsia está pensado para destacar. Se sugiere solicitar un talle adicional, ya que la confección tiende a ser más ajustada. Disponible en una amplia gama de talles, desde el 34 hasta el 46, para que cada mujer encuentre su ajuste perfecto. Esta pollera es una elección ideal para quienes buscan un estilo fresco y juvenil, adaptable a diversas ocasiones. Exprésate con energía y estilo con Mini Tablas Dome Fucsia y deslumbra en cada paso.",
+    "precio": 12600.0,
+    "puntuacion": "**"
+  }
+]

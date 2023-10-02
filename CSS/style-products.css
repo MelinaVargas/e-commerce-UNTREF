@@ -1,0 +1,106 @@
+/*CONTENEDOR PRODUCTO*/
+
+.producto_contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8rem 6vw;
+  width: 88vw;
+  margin-bottom: 2rem;
+}
+
+.imagen_contenedor {
+  margin: 1rem 0;
+}
+
+.imagen_contenedor img {
+  width: 18rem;
+}
+
+.texto_contenedor {
+  margin-bottom: 1rem;
+}
+
+.texto_contenedor * {
+  margin: 0.62rem 0;
+}
+
+.texto_precio {
+  font-size: 1.3rem;
+  color: #a7a7a7;
+  font-weight: 600;
+}
+
+.texto_envio {
+  font-size: 1rem;
+  color: green;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.puntuacion {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.star {
+  margin-top: 0;
+  color: rgb(199, 199, 42);
+  display: inline-block;
+}
+
+.detalle_producto {
+  margin: 0 6vw;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.detalle_producto p {
+  font-size: 1.18rem;
+}
+
+/*BOTON VOLVER*/
+
+.botones {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.boton_volver {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: rgb(54, 80, 110);
+  color: white;
+  width: 7rem;
+  height: 2.5rem;
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 3rem 1rem;
+  &:hover {
+    background-color: rgb(167, 160, 160) e4;
+    transition: 0.3s;
+  }
+}
+.boton_comprar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  width: 7rem;
+  height: 2.5rem;
+  font-size: 1.3em;
+  text-align: center;
+  margin: 3rem 1rem;
+  &:hover {
+    background-color: rgb(167, 160, 160) d4;
+    transition: 0.3s;
+  }
+}

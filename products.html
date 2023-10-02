@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<lang="es">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Melina Vargas" />
+    <meta name="description" content="Tienda online de ropa">
+    <title>Home | Dos Chingadas</title>
+
+    <!-- Enlaces de las fuentes de Google Fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+    </style>
+
+    <!-- Scripts de Bootstrap -->
+    <link href=https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="CSS/font-awesome.min.css"> -->
+
+    <!-- Enlaces a archivos CSS -->
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/style-products.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./img/icons/ícono.png.png">
+  </head>
+
+  <body>
+
+    <div class="contenedor_principal">
+
+      <header> <!-- Inicio Header -->
+
+        <!--Menú-->
+
+        <nav class="navbar container">
+          <picture class="navbar__logo">
+            <a href="index.html">
+              <img src="./img/branding/logo-menú.webp" alt="Isologotipo de la Marca Dos Chingadas"> <!--Logo -->
+            </a>
+          </picture>
+          <ul class="navbar__menu">
+            <li class="navbar__item with-submenu">
+              <a class="navbar__link with-icon" href="#productos">PRODUCTOS<iconify-icon icon="mdi:chevron-down"></iconify-icon></a> <!-- Shop -->
+              <ul class="submenu">
+                <li class="submenu__item mr-md-1">
+                    <a href="products.html?codigo=Denim" class="submenu__link">Denim</a>
+                  </li>
+                  <li class="submenu__item mr-md-1">
+                    <a href="products.html?codigo=Buzos" class="submenu__link">Buzos</a>
+                  </li>
+                  <li class="submenu__item mr-md-1">
+                    <a href="products.html?codigo=Tops" class="submenu__link">Tops</a>
+                  </li>
+                  <li class="submenu__item mr-md-1">
+                    <a href="products.html?codigo=Shorts" class="submenu__link">Shorts</a>
+                  </li>
+                  <li class="submenu__item mr-md-1">
+                    <a href="products.html?codigo=Minis" class="submenu__link">Minis</a>
+                  </li>
+              </ul>
+            </li>
+            <li>
+              <a class="navbar__link" href="">CONTACTO</a> <!-- Contacto -->
+            </li>
+            <li>
+              <a class="navbar__link" href="">LOGIN</a> <!-- Login -->
+            </li>
+            <li>
+              <a class="navbar__cart" href="">
+                <img src="./img/icons/cart-icon.svg" alt="ícono de carrito">
+              </a> <!-- Carrito -->
+            </li>
+          </ul>
+        </nav>
+
+      </header> <!-- Fin Header -->
+
+      <main> <!-- Inicio Main -->
+
+        <div class="producto_contenedor"></div>
+      <div class="botones">
+        <a href="index.html#productos_descripcion" class="boton_volver">Volver</a>
+        <a href="#" class="boton_comprar">Comprar</a>
+      </div>
+
+      </main> <!-- Fin Main -->
+
+      <footer class="footer"> <!-- Inicio Footer -->
+          <nav class="navbar container">
+            <ul class="navbar__item">
+              <li class="navbar__item">
+                <a class="navbar__link" href="#productos">PRODUCTOS</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="">REGISTRARSE</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="">LOGIN</a>
+              </li>
+            </ul>
+            <picture>
+              <img src="./img/branding/logo-menú.webp" alt="Isotipo de la Marca Dos Chingadas">
+            </picture>
+          </nav>
+
+        <p class="footer__copy"> Copyright Dos Chingadas &copy- 2023. Todos los derechos reservados.</p>
+      </footer> <!-- Fin Footer -->
+      <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+      <script src="JS/script_productos.js"></script>
+  </body>
+  </html>
